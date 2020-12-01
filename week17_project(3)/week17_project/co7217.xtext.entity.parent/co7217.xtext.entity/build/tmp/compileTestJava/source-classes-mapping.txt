@@ -1,0 +1,4 @@
+co7217/xtext/entity/tests/EntityDSLInjectorProvider.java
+ co7217.xtext.entity.tests.EntityDSLInjectorProvider
+ co7217.xtext.entity.tests.EntityDSLInjectorProvider$1
+ co7217.xtext.entity.tests.EntityDSLInjectorProvider$2

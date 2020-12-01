@@ -1,0 +1,94 @@
+co7217/mu6/entity/domainDSL/DomainDSLPackage.java
+ co7217.mu6.entity.domainDSL.DomainDSLPackage
+ co7217.mu6.entity.domainDSL.DomainDSLPackage$Literals
+co7217/mu6/entity/serializer/DomainDSLSemanticSequencer.java
+ co7217.mu6.entity.serializer.DomainDSLSemanticSequencer
+co7217/mu6/entity/domainDSL/impl/DomainDSLPackageImpl.java
+ co7217.mu6.entity.domainDSL.impl.DomainDSLPackageImpl
+co7217/mu6/entity/services/DomainDSLGrammarAccess.java
+ co7217.mu6.entity.services.DomainDSLGrammarAccess
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$AbstractElementElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$DataTypeElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$DomainModelElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$EntityElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$FeatureElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$ImportElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$PackageDeclarationElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$QualifiedNameElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$QualifiedNameWithWildcardElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$TypeElements
+ co7217.mu6.entity.services.DomainDSLGrammarAccess$VisibilityElements
+co7217/mu6/entity/generator/DomainDSLGenerator.java
+ co7217.mu6.entity.generator.DomainDSLGenerator
+co7217/mu6/entity/domainDSL/impl/ImportImpl.java
+ co7217.mu6.entity.domainDSL.impl.ImportImpl
+co7217/mu6/entity/domainDSL/impl/FeatureImpl.java
+ co7217.mu6.entity.domainDSL.impl.FeatureImpl
+co7217/mu6/entity/parser/antlr/internal/InternalDomainDSLLexer.java
+ co7217.mu6.entity.parser.antlr.internal.InternalDomainDSLLexer
+ co7217.mu6.entity.parser.antlr.internal.InternalDomainDSLLexer$DFA12
+co7217/mu6/entity/domainDSL/PackageDeclaration.java
+ co7217.mu6.entity.domainDSL.PackageDeclaration
+co7217/mu6/entity/validation/DomainDSLConfigurableIssueCodesProvider.java
+ co7217.mu6.entity.validation.DomainDSLConfigurableIssueCodesProvider
+co7217/mu6/entity/domainDSL/Feature.java
+ co7217.mu6.entity.domainDSL.Feature
+co7217/mu6/entity/domainDSL/impl/DomainDSLFactoryImpl.java
+ co7217.mu6.entity.domainDSL.impl.DomainDSLFactoryImpl
+co7217/mu6/entity/domainDSL/Visibility.java
+ co7217.mu6.entity.domainDSL.Visibility
+co7217/mu6/entity/domainDSL/DomainDSLFactory.java
+ co7217.mu6.entity.domainDSL.DomainDSLFactory
+co7217/mu6/entity/serializer/DomainDSLSyntacticSequencer.java
+ co7217.mu6.entity.serializer.DomainDSLSyntacticSequencer
+co7217/mu6/entity/domainDSL/DomainModel.java
+ co7217.mu6.entity.domainDSL.DomainModel
+co7217/mu6/entity/scoping/AbstractDomainDSLScopeProvider.java
+ co7217.mu6.entity.scoping.AbstractDomainDSLScopeProvider
+co7217/mu6/entity/domainDSL/Type.java
+ co7217.mu6.entity.domainDSL.Type
+co7217/mu6/entity/parser/antlr/DomainDSLAntlrTokenFileProvider.java
+ co7217.mu6.entity.parser.antlr.DomainDSLAntlrTokenFileProvider
+co7217/mu6/entity/domainDSL/AbstractElement.java
+ co7217.mu6.entity.domainDSL.AbstractElement
+co7217/mu6/entity/domainDSL/impl/TypeImpl.java
+ co7217.mu6.entity.domainDSL.impl.TypeImpl
+co7217/mu6/entity/scoping/DomainDSLScopeProvider.java
+ co7217.mu6.entity.scoping.DomainDSLScopeProvider
+co7217/mu6/entity/domainDSL/impl/DomainModelImpl.java
+ co7217.mu6.entity.domainDSL.impl.DomainModelImpl
+co7217/mu6/entity/parser/antlr/internal/InternalDomainDSLParser.java
+ co7217.mu6.entity.parser.antlr.internal.InternalDomainDSLParser
+co7217/mu6/entity/DomainDSLStandaloneSetupGenerated.java
+ co7217.mu6.entity.DomainDSLStandaloneSetupGenerated
+co7217/mu6/entity/parser/antlr/DomainDSLParser.java
+ co7217.mu6.entity.parser.antlr.DomainDSLParser
+co7217/mu6/entity/validation/AbstractDomainDSLValidator.java
+ co7217.mu6.entity.validation.AbstractDomainDSLValidator
+co7217/mu6/entity/domainDSL/impl/DataTypeImpl.java
+ co7217.mu6.entity.domainDSL.impl.DataTypeImpl
+co7217/mu6/entity/validation/DomainDSLValidator.java
+ co7217.mu6.entity.validation.DomainDSLValidator
+co7217/mu6/entity/domainDSL/Import.java
+ co7217.mu6.entity.domainDSL.Import
+co7217/mu6/entity/DomainDSLStandaloneSetup.java
+ co7217.mu6.entity.DomainDSLStandaloneSetup
+co7217/mu6/entity/domainDSL/impl/AbstractElementImpl.java
+ co7217.mu6.entity.domainDSL.impl.AbstractElementImpl
+co7217/mu6/entity/domainDSL/impl/PackageDeclarationImpl.java
+ co7217.mu6.entity.domainDSL.impl.PackageDeclarationImpl
+co7217/mu6/entity/domainDSL/impl/EntityImpl.java
+ co7217.mu6.entity.domainDSL.impl.EntityImpl
+co7217/mu6/entity/DomainDSLRuntimeModule.java
+ co7217.mu6.entity.DomainDSLRuntimeModule
+co7217/mu6/entity/AbstractDomainDSLRuntimeModule.java
+ co7217.mu6.entity.AbstractDomainDSLRuntimeModule
+co7217/mu6/entity/domainDSL/Entity.java
+ co7217.mu6.entity.domainDSL.Entity
+co7217/mu6/entity/domainDSL/DataType.java
+ co7217.mu6.entity.domainDSL.DataType
+co7217/mu6/entity/domainDSL/util/DomainDSLAdapterFactory.java
+ co7217.mu6.entity.domainDSL.util.DomainDSLAdapterFactory
+ co7217.mu6.entity.domainDSL.util.DomainDSLAdapterFactory$1
+co7217/mu6/entity/domainDSL/util/DomainDSLSwitch.java
+ co7217.mu6.entity.domainDSL.util.DomainDSLSwitch

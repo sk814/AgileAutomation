@@ -1,0 +1,60 @@
+grammar co7217.mu6.entity.DomainDSL with org.eclipse.xtext.common.Terminals
+
+generate domainDSL "http://www.mu6.co7217/entity/DomainDSL"
+
+DomainModel:
+  (elements += AbstractElement)*
+;
+ 
+PackageDeclaration:
+  'package' name = QualifiedName '{'
+    (elements += AbstractElement)*
+  '}'
+;
+
+
+
+AbstractElement:
+  PackageDeclaration | Type | Import
+;
+ 
+Import:
+  'import' importedNamespace = QualifiedNameWithWildcard
+;
+  
+QualifiedNameWithWildcard:
+  QualifiedName '.*'?
+;
+
+
+Type:
+  DataType | Entity
+;
+  
+DataType:
+  'datatype' name=ID 
+;
+ 
+Entity:
+  'entity' name = ID 
+              ('extends' superType = [Entity | QualifiedName])?
+  '{'
+    (features += Feature)*
+  '}'
+;
+
+ 
+Feature:
+  (modifier=Visibility)? (many ?= 'many')? name = ID ':' type = [Type | QualifiedName]
+;
+
+QualifiedName:
+  ID ('.' ID)*
+;
+
+
+enum Visibility:
+    PUBLIC = 'public' 
+    | PRIVATE = 'private' 
+    | PROTECTED = 'protected';
+

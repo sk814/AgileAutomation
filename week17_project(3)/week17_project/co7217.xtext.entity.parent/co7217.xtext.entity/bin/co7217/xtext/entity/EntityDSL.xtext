@@ -1,0 +1,9 @@
+grammar co7217.xtext.entity.EntityDSL with org.eclipse.xtext.common.Terminals
+
+generate entityDSL "http://www.xtext.co7217/entity/EntityDSL"
+
+Model:
+	greetings+=Greeting*;
+	
+Greeting:
+	'Hello' name=ID '!';

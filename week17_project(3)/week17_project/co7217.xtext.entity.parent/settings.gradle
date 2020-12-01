@@ -1,0 +1,3 @@
+include 'co7217.xtext.entity'
+include 'co7217.xtext.entity.ide'
+include 'co7217.xtext.entity.web'

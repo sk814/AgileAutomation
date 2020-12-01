@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webpage:Web
+    xmi:version="2.0"
+    xmlns:xmi="http://www.omg.org/XMI"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:webpage="http://www.example.org/webpage"
+    xsi:schemaLocation="http://www.example.org/webpage webpage.ecore"
+    Name="Agile Cloud Automation">
+  <pages name="EMF">
+    <category
+        name="sk814"/>
+  </pages>
+</webpage:Web>

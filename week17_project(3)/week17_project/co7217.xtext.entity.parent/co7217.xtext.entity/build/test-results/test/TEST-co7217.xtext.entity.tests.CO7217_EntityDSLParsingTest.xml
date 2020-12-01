@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-11-22T19:20:42" hostname="sanjeev-Latitude-3400" time="1.283">
+  <properties/>
+  <testcase name="testDataType()" classname="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" time="1.248"/>
+  <testcase name="testEntities()" classname="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" time="0.006"/>
+  <testcase name="testLiteralEnumeration1()" classname="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" time="0.004"/>
+  <testcase name="testLiteralEnumeration2()" classname="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" time="0.003"/>
+  <testcase name="testTutorialExample()" classname="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" time="0.005"/>
+  <testcase name="testModifierForFeatures()" classname="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" time="0.004"/>
+  <testcase name="testPackge()" classname="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" time="0.005"/>
+  <testcase name="testInheritance()" classname="co7217.xtext.entity.tests.CO7217_EntityDSLParsingTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

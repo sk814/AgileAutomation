@@ -1,0 +1,16 @@
+co7217/xtext/entity/ide/contentassist/antlr/internal/InternalEntityDSLLexer.java
+ co7217.xtext.entity.ide.contentassist.antlr.internal.InternalEntityDSLLexer
+ co7217.xtext.entity.ide.contentassist.antlr.internal.InternalEntityDSLLexer$DFA12
+co7217/xtext/entity/ide/contentassist/antlr/PartialEntityDSLContentAssistParser.java
+ co7217.xtext.entity.ide.contentassist.antlr.PartialEntityDSLContentAssistParser
+co7217/xtext/entity/ide/EntityDSLIdeModule.java
+ co7217.xtext.entity.ide.EntityDSLIdeModule
+co7217/xtext/entity/ide/contentassist/antlr/EntityDSLParser.java
+ co7217.xtext.entity.ide.contentassist.antlr.EntityDSLParser
+ co7217.xtext.entity.ide.contentassist.antlr.EntityDSLParser$NameMappings
+co7217/xtext/entity/ide/contentassist/antlr/internal/InternalEntityDSLParser.java
+ co7217.xtext.entity.ide.contentassist.antlr.internal.InternalEntityDSLParser
+co7217/xtext/entity/ide/EntityDSLIdeSetup.java
+ co7217.xtext.entity.ide.EntityDSLIdeSetup
+co7217/xtext/entity/ide/AbstractEntityDSLIdeModule.java
+ co7217.xtext.entity.ide.AbstractEntityDSLIdeModule

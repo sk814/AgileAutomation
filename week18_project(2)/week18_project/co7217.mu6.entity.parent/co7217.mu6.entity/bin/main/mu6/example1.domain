@@ -1,0 +1,11 @@
+datatype String
+
+package RentACar {
+
+	entity Car {
+		drivingPlate : String
+	}
+
+}
+  
+   

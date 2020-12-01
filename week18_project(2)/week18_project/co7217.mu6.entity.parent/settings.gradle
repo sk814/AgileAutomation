@@ -1,0 +1,3 @@
+include 'co7217.mu6.entity'
+include 'co7217.mu6.entity.ide'
+include 'co7217.mu6.entity.web'

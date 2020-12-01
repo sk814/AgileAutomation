@@ -1,0 +1,68 @@
+grammar co7217.xtext.entity.EntityDSL with org.eclipse.xtext.common.Terminals
+//grammar co7217.xtext.entity.EntityDSL with org.eclipse.xtext.common.
+generate entityDSL "http://www.xtext.co7217/entity/EntityDSL"
+
+Domainmodel:
+	(elements+=AbstractElement)*;
+
+PackageDeclaration:
+	'package' name=QualifiedName '{'
+	(elements+=AbstractElement)*
+	'}';
+
+AbstractElement:
+	PackageDeclaration | Type | Import;
+
+Import:
+	'import' importedNamespace=QualifiedNameWithWildcard;
+
+QualifiedNameWithWildcard:
+	QualifiedName '.*'?;
+
+QualifiedName:
+	ID ('.' ID)*;
+
+
+Literal:
+	value=ID;
+	
+//Literal:
+//	name=ID;
+
+Type:
+	  Literal | Entity | DataType;
+
+
+DataType:
+	  'enumeration'
+	   (name=ID)
+	   ('extends' (superType=[Literal|QualifiedName]))?
+	'{'
+//	(literals = literals + Literal)*
+(literals += Literal)*
+
+	'}'
+	|
+	('datatype' name=ID)
+//	|
+//	  ('Enumeration' value=ID ('extends' superType=[Literal|QualifiedName])?
+//	'{'
+//	(literals+=Literal)*
+//	'}')	
+	;
+
+	
+
+Entity:
+	'entity' name=ID ('extends' superType=[Entity|QualifiedName])?
+	'{'
+	(features+=Feature)*
+	'}';
+
+Feature:
+	(modifier=Visibility)? (many?='many')? name=ID ':' type=[Type|QualifiedName];
+
+enum Visibility:
+	PUBLIC='public'
+	| PRIVATE='private'
+	| PROTECTED='protected';

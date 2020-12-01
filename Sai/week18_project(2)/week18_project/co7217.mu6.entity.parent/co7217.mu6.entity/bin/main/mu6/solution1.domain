@@ -1,0 +1,15 @@
+package RentACar;
+
+public class Car  {
+	
+	private String drivingPlate;
+	
+	public String getDrivingPlate() {
+		return drivingPlate;
+	}
+	
+	public void setDrivingPlate(String drivingPlate) {
+		this.drivingPlate = drivingPlate;
+	}
+
+}
